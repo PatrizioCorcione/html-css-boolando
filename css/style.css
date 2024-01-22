@@ -61,13 +61,10 @@ img{
 .quality{
   font-size: 0.9rem;
   top: 41%;
-  right: 88%;
+  right: 87.8%;
   position: absolute;
   width: 8%;
   color: white;
   padding: 1px 4px;
   background-color: rgb(0, 220, 77);
-}
-.info{
-  position: relative;
 }
