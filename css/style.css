@@ -11,6 +11,7 @@ img{
   max-width: 1000px;
   margin: 40px auto;
 }
+/* utility*/
 .gray{
   color: gray;
 }
@@ -21,38 +22,41 @@ img{
   text-decoration: line-through;
   color: gray;
 }
+.red{
+  color: red;
+}
+/*main*/
 .main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+.labels{
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+
+}
+.card{
   position: relative;
 }
 .cards{
+  margin-bottom: 35px;
   width: 32%;
 }
 .cardb{
   display: none;
   position: absolute;
   top: 0;
-  width: 32%;
 }
-.cardb-down{
 
-  display: none;
-  position: absolute;
-  bottom: 0;
-  bottom: 5.7%;
-  width: 32%;
-}
 .cards:hover .cardb{
   display: block;
 }
-.cards:hover .cardb-down{
-  display: block;
-}
+
 .discount{
   font-size: 0.9rem;
-  top: 41%;
-  position: absolute;
   width: 4%;
   color: white;
   padding: 1px 4px;
@@ -60,51 +64,16 @@ img{
 }
 .quality{
   font-size: 0.9rem;
-  top: 41%;
-  right: 87.1%;
-  position: absolute;
   width: 8%;
   color: white;
   padding: 1px 4px;
   background-color: rgb(0, 220, 77);
 }
 
-.discount-down{
-  font-size: 0.9rem;
-  top: 94%;
-  position: absolute;
-  width: 4%;
-  color: white;
-  padding: 1px 4px;
-  background-color: red;
-}
-.quality-down{
-  font-size: 0.9rem;
-  top: 94%;
-  right: 87.1%;
-  position: absolute;
-  width: 8%;
-  color: white;
-  padding: 1px 4px;
-  background-color: rgb(0, 220, 77);
-}
-.quality-down-noright{
-  font-size: 0.9rem;
-  top: 94%;
-  position: absolute;
-  width: 8%;
-  color: white;
-  padding: 1px 4px;
-  background-color: rgb(0, 220, 77);
-}
 i{
+  padding: 20px;
   background-color: rgb(255, 255, 255);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  right: 67.5%;
-  top: 3%;
+  right: 0;
+  top: 20px;
   position: absolute;
 }
