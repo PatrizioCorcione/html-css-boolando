@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+img{
+  width: 100%;
+}
+.container{
+  background-color: aqua;
+  width: 80%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.cards{
+  width: 33%;
+}
+.cardb{
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 33%;
+}
+.cardb-down{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 33%;
+
+}
+.cards:hover .cardb{
+  display: block;
+}
+.cards:hover .cardb-down{
+  display: block;
+}
