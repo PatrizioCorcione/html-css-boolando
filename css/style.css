@@ -7,7 +7,6 @@ img{
   width: 100%;
 }
 .container{
-  background-color: aqua;
   width: 80%;
   max-width: 1000px;
   margin: 40px auto;
@@ -28,19 +27,23 @@ img{
   position: relative;
 }
 .cards{
-  width: 33%;
+  margin: 5px;
+  width: 32%;
 }
 .cardb{
+  margin: 5px;
   display: none;
   position: absolute;
   top: 0;
-  width: 33%;
+  width: 32%;
 }
 .cardb-down{
+  margin: 5px;
+
   display: none;
   position: absolute;
   bottom: 0;
-  width: 33%;
+  width: 32%;
 
 }
 .cards:hover .cardb{
@@ -61,7 +64,36 @@ img{
 .quality{
   font-size: 0.9rem;
   top: 41%;
-  right: 87.8%;
+  right: 87.1%;
+  position: absolute;
+  width: 8%;
+  color: white;
+  padding: 1px 4px;
+  background-color: rgb(0, 220, 77);
+}
+
+.discount-down{
+  font-size: 0.9rem;
+  top: 94%;
+  position: absolute;
+  width: 4%;
+  color: white;
+  padding: 1px 4px;
+  background-color: red;
+}
+.quality-down{
+  font-size: 0.9rem;
+  top: 94%;
+  right: 87.1%;
+  position: absolute;
+  width: 8%;
+  color: white;
+  padding: 1px 4px;
+  background-color: rgb(0, 220, 77);
+}
+.quality-down-noright{
+  font-size: 0.9rem;
+  top: 94%;
   position: absolute;
   width: 8%;
   color: white;
