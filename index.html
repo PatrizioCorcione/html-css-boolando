@@ -8,13 +8,33 @@
   <title>Boolando</title>
 </head>
 <body>
-  <header></header>
+  <header class="header">
+    <div class="container flex-top">
+      <nav class="nav-text">
+        <ul class="flex-ul-txt">
+          <li><a class="white" href="">Donna</a></li>
+          <li><a class="white" href="">Uomo</a></li>
+          <li><a class="white" href="">Bambini</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <img src="css/img/boolean-logo.png" alt="">
+      </div>
+      <nav class="nav-icon">
+        <ul class="flex-ul">
+          <li><a href=""> <i class="fa-regular fa-user"></i> </a></li>
+          <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+          <li><a href=""><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <main class="main container">
     <div class="cards">
       <div class="card">
         <img src="css/img/1.webp" alt="">
         <img class="cardb" src="css/img/1b.webp" alt="">
-        <i class="fa-sharp fa-solid fa-heart"></i>
+        <i id="heart" class="fa-sharp fa-solid fa-heart"></i>
       
         <div class="labels">
           <span class="discount">-50%</span>
@@ -33,7 +53,7 @@
       <div class="card">
         <img src="css/img/2.webp" alt="">
         <img class="cardb" src="css/img/2b.webp" alt="">
-        <i class="fa-sharp fa-solid fa-heart"></i>
+        <i id="heart" class="fa-sharp fa-solid fa-heart"></i>
       
         <div class="labels">
           <span class="discount">-30%</span>
@@ -52,7 +72,7 @@
       <div class="card">
         <img src="css/img/3.webp" alt="">
         <img class="cardb" src="css/img/3b.webp" alt="">
-        <i class="fa-sharp fa-solid fa-heart"></i>
+        <i id="heart" class="fa-sharp fa-solid fa-heart"></i>
       
         <div class="labels">
           <span class="discount">-30%</span>
@@ -70,7 +90,7 @@
       <div class="card">
         <img src="css/img/4.webp" alt="">
         <img class="cardb" src="css/img/4b.webp" alt="">
-        <i class="fa-sharp fa-solid fa-heart"></i>
+        <i id="heart" class="fa-sharp fa-solid fa-heart"></i>
       
         <div class="labels">
           <span class="discount">-50%</span>
@@ -89,7 +109,7 @@
       <div class="card">
         <img src="css/img/5.webp" alt="">
         <img class="cardb" src="css/img/5b.webp" alt="">
-        <i class="fa-sharp fa-solid fa-heart"></i>
+        <i id="heart" class="fa-sharp fa-solid fa-heart"></i>
       
       </div>
       <div class="text">
@@ -104,7 +124,7 @@
       <div class="card">
         <img src="css/img/6.webp" alt="">
         <img class="cardb" src="css/img/6b.webp" alt="">
-        <i class="fa-sharp fa-solid fa-heart"></i>
+        <i id="heart" class="fa-sharp fa-solid fa-heart"></i>
       
         <div class="labels">
           <span class="quality">Sostenibilita</span>
@@ -119,6 +139,27 @@
       </div>
     </div>  
   </main>
-  <footer></footer>
+  <footer class="footer-back">
+    <div class="container flex-footer">
+      <div class="legal">
+        <strong class="white">Boolando s.r.l.</strong>
+        <ul class="footer-ul">
+          <li><a href="">Informazioni legali</a></li>
+          <li><a href="">Informative sulla privacy</a></li>
+          <li><a href="">Diritto di recesso</a></li>
+        </ul>
+      </div>
+      <div class="find">
+        <p class="white">Trovaci anche su:</p>
+        <ul class="flex-icon">
+          <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-square-pinterest"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-square-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
